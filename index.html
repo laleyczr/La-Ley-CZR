@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Ley CZR - Oficial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header id="header">
+  <nav class="navbar container">
+    <a href="#inicio" class="logo">La <span class="highlight">Ley</span> CZR</a>
+    <ul class="nav-links">
+      <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+      <li><a href="#musica" class="nav-link">Música</a></li>
+      <li><a href="#videos" class="nav-link">Videos</a></li>
+      <li><a href="#bio" class="nav-link">Biografía</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </div>
+  </nav>
+</header>
+
+<section id="inicio" class="section hero">
+  <div class="hero-content container">
+    <h1>La Ley CZR</h1>
+    <p>Rapero y artista urbano argentino</p>
+    <a href="#musica" class="btn">Escuchar Música</a>
+  </div>
+</section>
+
+<section id="musica" class="section musica">
+  <div class="container">
+    <h2>Música Destacada</h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4BnQSPQMY1mTpiPOJ9qHwr" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </div>
+</section>
+
+<section id="videos" class="section videos">
+  <div class="container">
+    <h2>Videos Recientes</h2>
+    <div class="video-grid" id="videoGrid">
+      <!-- Videos insertados con JS -->
+    </div>
+  </div>
+</section>
+
+<section id="bio" class="section bio">
+  <div class="container">
+    <h2>Biografía</h2>
+    <p>
+      Jonathan Oliva, conocido como La Ley CZR, es uno de los artistas urbanos más
+      influyentes de Argentina. Con su estilo único y letras que conectan con la realidad,
+      ha conquistado miles de fans en toda Latinoamérica.
+    </p>
+    <p>
+      Desde sus comienzos en la calle hasta los escenarios más grandes, La Ley CZR representa
+      la voz de la juventud y la cultura urbana.
+    </p>
+  </div>
+</section>
+
+<section id="contacto" class="section contacto">
+  <div class="container">
+    <h2>Contacto</h2>
+    <p>¿Querés trabajar conmigo o simplemente saludar? Mandame un mensaje.</p>
+    <form action="mailto:contacto@laleyczr.com" method="POST" enctype="text/plain" class="contact-form">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu email" required />
+      <textarea name="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <div class="redes-sociales">
+      <a href="https://instagram.com/laleyczr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://open.spotify.com/artist/4BnQSPQMY1mTpiPOJ9qHwr" target="_blank" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+      <a href="https://youtube.com/laleyczr" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://tiktok.com/@laleyczr" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 La Ley CZR - Todos los derechos reservados</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
